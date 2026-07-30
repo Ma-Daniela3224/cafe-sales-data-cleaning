@@ -98,8 +98,8 @@ jupyter notebook
 El proceso de limpieza cuenta con tests unitarios que verifican el comportamiento 
 de cada funcion de forma aislada.
 
-\`\`\`bash
+```bash
 python -m pytest tests/ -v
-\`\`\`
+```
 
 ⭐ Si este proyecto te resultó útil o interesante, considera darle una estrella al repositorio.
