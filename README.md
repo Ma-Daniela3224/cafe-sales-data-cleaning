@@ -1,5 +1,7 @@
 # ☕ Análisis y Limpieza de Datos: Ventas de Cafetería
 
+🔗 **[Ver dashboard en vivo](https://cafe-sales-data-cleaning-amylyg7jf7zpqvgrgdfv2d.streamlit.app)** | 📓 [Ver notebooks de análisis](notebooks/)
+
 Proyecto de ciencia de datos que transforma un dataset sintético "sucio" de 10,000 transacciones en un análisis limpio y accionable, aplicando un flujo completo de limpieza, análisis exploratorio (EDA) y generación de insights de negocio.
 
 ## 📋 Contexto del proyecto
@@ -72,6 +74,8 @@ Las ventas mensuales varían menos del 10% a lo largo del año, sin tendencia de
 📓 Ver el análisis completo en [`03_analisis_exploratorio.ipynb`](notebooks/03_analisis_exploratorio.ipynb) y el resumen ejecutivo en [`04_insights_finales.ipynb`](notebooks/04_insights_finales.ipynb)
 
 ## 📊 Dashboard interactivo
+
+🔗 **[Abrir dashboard en vivo](https://cafe-sales-data-cleaning-amylyg7jf7zpqvgrgdfv2d.streamlit.app)**
 
 El proyecto incluye un dashboard construido con Streamlit para explorar los datos 
 de forma interactiva, con filtros por producto, metodo de pago y ubicacion.
