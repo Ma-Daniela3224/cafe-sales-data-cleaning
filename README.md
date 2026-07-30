@@ -71,6 +71,19 @@ Las ventas mensuales varían menos del 10% a lo largo del año, sin tendencia de
 
 📓 Ver el análisis completo en [`03_analisis_exploratorio.ipynb`](notebooks/03_analisis_exploratorio.ipynb) y el resumen ejecutivo en [`04_insights_finales.ipynb`](notebooks/04_insights_finales.ipynb)
 
+## 📊 Dashboard interactivo
+
+El proyecto incluye un dashboard construido con Streamlit para explorar los datos 
+de forma interactiva, con filtros por producto, metodo de pago y ubicacion.
+
+Para ejecutarlo localmente:
+
+```bash
+streamlit run dashboard.py
+```
+
+![Dashboard preview](images/dashboard_preview.gif)
+
 ## ⚠️ Limitaciones
 
 Este es un dataset **sintético**, generado intencionalmente para practicar limpieza de datos. Los patrones (o ausencia de ellos) no deben interpretarse como comportamiento real de consumidores. El valor de este proyecto está en demostrar un flujo de limpieza y análisis riguroso y bien documentado, aplicable a datos reales.
