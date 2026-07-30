@@ -33,6 +33,7 @@ cafe-sales-cleaning/
 │   ├── 02_limpieza_datos.ipynb        # Proceso completo de limpieza
 │   ├── 03_analisis_exploratorio.ipynb # EDA y visualizaciones
 │   └── 04_insights_finales.ipynb      # Resumen ejecutivo de hallazgos
+├── images/                        # Gráficas exportadas para este README
 ├── requirements.txt                # Librerías necesarias
 └── README.md
 ```
