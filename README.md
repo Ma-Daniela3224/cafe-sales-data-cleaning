@@ -96,7 +96,7 @@ Este es un dataset **sintético**, generado intencionalmente para practicar limp
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/TU-USUARIO/cafe-sales-cleaning.git
+git clone https://github.com//Ma-Daniela3224/cafe-sales-cleaning.git
 cd cafe-sales-cleaning
 
 # Crea y activa un entorno virtual
