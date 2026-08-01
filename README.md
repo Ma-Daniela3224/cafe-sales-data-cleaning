@@ -1,8 +1,15 @@
 # ☕ Análisis y Limpieza de Datos: Ventas de Cafetería
 
+![Python](https://img.shields.io/badge/Python-3-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-data%20cleaning-150458?logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-dashboard-FF4B4B?logo=streamlit&logoColor=white)
+![Status](https://img.shields.io/badge/status-completo-brightgreen)
+
 🔗 **[Ver dashboard en vivo](https://cafe-sales-data-cleaning-amylyg7jf7zpqvgrgdfv2d.streamlit.app)** | 📓 [Ver notebooks de análisis](notebooks/)
 
 Proyecto de ciencia de datos que transforma un dataset sintético "sucio" de 10,000 transacciones en un análisis limpio y accionable, aplicando un flujo completo de limpieza, análisis exploratorio (EDA) y generación de insights de negocio.
+
+![Dashboard preview](images/dashboard_preview.gif)
 
 ## 📋 Contexto del proyecto
 
@@ -20,13 +27,14 @@ El dataset original ([Dirty Cafe Sales - Kaggle](https://www.kaggle.com/datasets
 - **Python 3** — lenguaje principal
 - **Pandas** — limpieza y manipulación de datos
 - **Matplotlib / Seaborn** — visualización de datos
+- **Streamlit** — dashboard interactivo
 - **Jupyter Notebook** — entorno de análisis
 - **Git / GitHub** — control de versiones
 
 ## 📁 Estructura del repositorio
 
 ```
-cafe-sales-cleaning/
+cafe-sales-data-cleaning/
 ├── data/
 │   ├── dirty_cafe_sales.csv       # Dataset original (sucio)
 │   └── cafe_sales_clean.csv       # Dataset limpio, listo para análisis
@@ -36,7 +44,10 @@ cafe-sales-cleaning/
 │   ├── 03_analisis_exploratorio.ipynb # EDA y visualizaciones
 │   └── 04_insights_finales.ipynb      # Resumen ejecutivo de hallazgos
 ├── images/                        # Gráficas exportadas para este README
-├── requirements.txt                # Librerías necesarias
+├── src/                           # Funciones de limpieza reutilizables
+├── tests/                         # Tests unitarios del proceso de limpieza
+├── dashboard.py                   # App de Streamlit
+├── requirements.txt               # Librerías necesarias
 └── README.md
 ```
 
@@ -77,16 +88,13 @@ Las ventas mensuales varían menos del 10% a lo largo del año, sin tendencia de
 
 🔗 **[Abrir dashboard en vivo](https://cafe-sales-data-cleaning-amylyg7jf7zpqvgrgdfv2d.streamlit.app)**
 
-El proyecto incluye un dashboard construido con Streamlit para explorar los datos 
-de forma interactiva, con filtros por producto, metodo de pago y ubicacion.
+El proyecto incluye un dashboard construido con Streamlit para explorar los datos de forma interactiva, con filtros por producto, método de pago y ubicación.
 
 Para ejecutarlo localmente:
 
 ```bash
 streamlit run dashboard.py
 ```
-
-![Dashboard preview](images/dashboard_preview.gif)
 
 ## ⚠️ Limitaciones
 
@@ -96,8 +104,8 @@ Este es un dataset **sintético**, generado intencionalmente para practicar limp
 
 ```bash
 # Clona el repositorio
-git clone https://github.com//Ma-Daniela3224/cafe-sales-cleaning.git
-cd cafe-sales-cleaning
+git clone https://github.com/Ma-Daniela3224/cafe-sales-data-cleaning.git
+cd cafe-sales-data-cleaning
 
 # Crea y activa un entorno virtual
 python -m venv venv
@@ -112,11 +120,12 @@ jupyter notebook
 
 ## ✅ Tests
 
-El proceso de limpieza cuenta con tests unitarios que verifican el comportamiento 
-de cada funcion de forma aislada.
+El proceso de limpieza cuenta con tests unitarios que verifican el comportamiento de cada función de forma aislada.
 
 ```bash
 python -m pytest tests/ -v
 ```
+
+---
 
 ⭐ Si este proyecto te resultó útil o interesante, considera darle una estrella al repositorio.
